@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="510.0" prefWidth="490.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17" fx:controller="com.example.ButtonController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="490.0" prefWidth="520.0" VBox.vgrow="ALWAYS">
+      <children>
+            <TextField fx:id="txtView" layoutX="90.0" layoutY="28.0" prefHeight="60.0" prefWidth="330.0" />
+            <Button fx:id="button_7" layoutX="90.0" layoutY="125.0" mnemonicParsing="false" onAction="#printNumber" text="7" /> 
+            <Button fx:id="button_6" layoutX="90.0" layoutY="215.0" mnemonicParsing="false" onAction="#printNumber" text="6" />
+            <Button fx:id="button_3" layoutX="90.0" layoutY="305.0" mnemonicParsing="false" onAction="#printNumber" text="3" />
+            <Button fx:id="button_0" layoutX="90.0" layoutY="395.0" mnemonicParsing="false" onAction="#printNumber" text="0" />
+
+            <Button fx:id="button_8" layoutX="180.0" layoutY="125.0" mnemonicParsing="false" onAction="#printNumber" text="8" />
+            <Button fx:id="button_5" layoutX="180.0" layoutY="215.0" mnemonicParsing="false" onAction="#printNumber" text="5" />
+            <Button fx:id="button_2" layoutX="180.0" layoutY="305.0" mnemonicParsing="false" onAction="#printNumber" text="2" />
+            <Button fx:id="button_clear" layoutX="180.0" layoutY="395.0" mnemonicParsing="false" onAction="#resetValues" text="AC" />
+
+
+            <Button fx:id="button_9" layoutX="270.0" layoutY="125.0" mnemonicParsing="false" onAction="#printNumber" text="9" />
+            <Button fx:id="button_4" layoutX="270.0" layoutY="215.0" mnemonicParsing="false" onAction="#printNumber" text="4" />
+            <Button fx:id="button_1" layoutX="270.0" layoutY="305.0" mnemonicParsing="false" onAction="#printNumber" text="1" />
+            <Button fx:id="button_equal" layoutX="270.0" layoutY="395.0" mnemonicParsing="false" onAction="#printResult" text="=" />
+
+            <Button fx:id="button_divide" layoutX="360.0" layoutY="125.0" mnemonicParsing="false" onAction="#processOperation" text="/" />
+            <Button fx:id="button_times" layoutX="360.0" layoutY="215.0" mnemonicParsing="false" onAction="#processOperation" text="x" />
+            <Button fx:id="button_plus" layoutX="360.0" layoutY="305.0" mnemonicParsing="false" onAction="#processOperation" text="+" />
+            <Button fx:id="button_minus" layoutX="360.0" layoutY="395.0" mnemonicParsing="false" onAction="#processOperation" text="-" />
+
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>
