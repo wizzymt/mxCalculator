@@ -42,7 +42,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.mservices.App</mainClass>
+                            <mainClass>com.mservices/com.mservices.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
